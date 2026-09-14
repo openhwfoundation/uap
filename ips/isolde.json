@@ -439,7 +439,7 @@
       "Peripheral",
       "On-Chip Debug System"
     ],
-    "IP_CARD_URL": "",
+    "IP_CARD_URL": "ip_cards/BSC-safeti_ipcard.json",
     "IP_CARD_PDF_URL": ""
   },
   {
@@ -727,7 +727,7 @@
       "Extension",
       "On-Chip Debug System"
     ],
-    "IP_CARD_URL": "",
+    "IP_CARD_URL": "ip_cards/BSC-safesu_ipcard.json",
     "IP_CARD_PDF_URL": ""
   },
   {
@@ -938,7 +938,7 @@
       "Accelerator",
       "Extension"
     ],
-    "IP_CARD_URL": "",
+    "IP_CARD_URL": "ip_cards/BSC-hls_pqc_ip_card.json",
     "IP_CARD_PDF_URL": ""
   },
   {
@@ -1117,7 +1117,7 @@
     "IP_CARD_URL": "",
     "IP_CARD_PDF_URL": ""
   },
-    {
+  {
     "Project": "ISOLDE",
     "Name": "Model Prediction Control Application",
     "URL": "https://github.com/hash2100/isolde-workbench/tree/main/benchmarks/mpc-benchmark",
@@ -1130,7 +1130,8 @@
     "Partners": "NXP-CZ",
     "Comment": "Proprietary. ISOLDE Category 'Application Software'",
     "Category": [
-      "Software", "Application Software"
+      "Software",
+      "Application Software"
     ],
     "IP_CARD_URL": "ip_cards/NXP-CZ_MPC.jsonc",
     "IP_CARD_PDF_URL": "ip_cards/NXP-CZ_MPC.pdf"

@@ -129,8 +129,8 @@
     "Category": [
       "NoC"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://gitlab.com/selene-riscv-platform/euros2pronoc/-/blob/main/doc/ip_cards/UPV_NOC.jsonc",
+    "IP_CARD_PDF_URL": "https://gitlab.com/selene-riscv-platform/euros2pronoc/-/blob/main/doc/ip_cards/UPV_NOC.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -149,8 +149,8 @@
       "Tool",
       "Visualisation and Debugging"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://gitlab.com/selene-riscv-platform/selene-hardware/-/blob/ISOLDE/interconnect/libnoc/mem_monitor/ip_cards/UPV_AXISNIFFER.jsonc",
+    "IP_CARD_PDF_URL": "https://gitlab.com/selene-riscv-platform/selene-hardware/-/blob/ISOLDE/interconnect/libnoc/mem_monitor/ip_cards/UPV_AXISNIFFER.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -1776,8 +1776,8 @@
       "Software",
       "Tool"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://gitlab.com/selene-riscv-platform/DAVOS/-/blob/master/doc/BAFFI/IP_cards/UPV_baffi.json",
+    "IP_CARD_PDF_URL": "https://gitlab.com/selene-riscv-platform/DAVOS/-/blob/master/doc/BAFFI/IP_cards/UPV_baffi.pdf"
   },
   {
     "Project": "ISOLDE",

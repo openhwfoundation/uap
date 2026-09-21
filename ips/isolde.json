@@ -231,24 +231,6 @@
   },
   {
     "Project": "ISOLDE",
-    "Name": "Hypervisor virtualization support to low-cost HW IPs",
-    "URL": "",
-    "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 2.2.08"
-    ],
-    "Partners": "FENTISS",
-    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
-    "Category": [
-      "Extension"
-    ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
     "Name": "Context-Aware CORE Extensions",
     "URL": "",
     "License": "SHL-2.1",
@@ -342,24 +324,6 @@
     "Category": [
       "Extension",
       "Interface"
-    ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
-    "Name": "XNG NOEL-V BSP update to RISC-V new specifications",
-    "URL": "",
-    "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 2.4.01"
-    ],
-    "Partners": "FENTISS",
-    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
-    "Category": [
-      "Software"
     ],
     "IP_CARD_URL": "",
     "IP_CARD_PDF_URL": ""
@@ -591,25 +555,6 @@
       "Accelerator",
       "Extension",
       "Peripheral"
-    ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
-    "Name": "Integration and support in XNG hypervisor for SafeTI and SafeSU IPs",
-    "URL": "",
-    "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 3.1.11"
-    ],
-    "Partners": "FENTISS",
-    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
-    "Category": [
-      "Accelerator",
-      "Extension"
     ],
     "IP_CARD_URL": "",
     "IP_CARD_PDF_URL": ""
@@ -1306,25 +1251,6 @@
   },
   {
     "Project": "ISOLDE",
-    "Name": "XNG BSP to CVA6 processor core",
-    "URL": "",
-    "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 4.1.09"
-    ],
-    "Partners": "FENTISS",
-    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
-    "Category": [
-      "Operating System",
-      "Software"
-    ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
     "Name": "Development of System Software",
     "URL": "",
     "License": "Others",
@@ -1866,6 +1792,132 @@
   },
   {
     "Project": "ISOLDE",
+    "Name": "XNG RISC-V BSP to support new NOEL-V features",
+    "URL": "www.fentiss.com",
+    "License": "Proprietary",
+    "Status": "Demonstrated",
+    "Description": "Updated the type 1 hypervisor for real-time mixed-criticality embedded systems providing time and space isolation to be executed on a NOEL-V core aligned to the most recent RISC-V specifications",
+    "WI": [
+      "ID 2.4.01"
+    ],
+    "Partners": "FENTISS",
+    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": [
+      "Software, Hypervisor"
+    ],
+    "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_RISC-V_BSP_to_support_new_NOEL-V_features.json",
+    "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_RISC-V_BSP_to_support_new_NOEL-V_features.pdf"
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "Integration and support in XNG hypervisor for SafeTI and SafeSU IPs",
+    "URL": "www.fentiss.com",
+    "License": "Proprietary",
+    "Status": "Demonstrated",
+    "Description": "Support of XNG to the SafeSU and SafeTI IP modules by BSC in order to use their funcionality",
+    "WI": [
+      "ID 3.1.11"
+    ],
+    "Partners": "FENTISS",
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": [
+      "Software, Hypervisor, Software Library/Framework"
+    ],
+    "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_Integration_and_support_in_XNG_hypervisor_for_SafeTI_and_SafeSU_IPs.json",
+    "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_Integration_and_support_in_XNG_hypervisor_for_SafeTI_and_SafeSU_IPs.pdf"
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "XNG hypervisor CVA6 board support package (with H-extension)",
+    "URL": "www.fentiss.com",
+    "License": "Proprietary",
+    "Status": "Demonstrated",
+    "Description": "Type 1 hypervisor for real-time mixed-criticality embedded systems providing time and space isolation to be executed on a CVA6 core",
+    "WI": [
+      "ID 4.1.09"
+    ],
+    "Partners": "FENTISS",
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": [
+      "Software, Hypervisor"
+    ],
+    "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_hypervisor_CVA6_board_support_package_H_extension.json",
+    "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_hypervisor_CVA6_board_support_package_H_extension.pdf"
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "XNG hypervisor integration of validation tools",
+    "URL": "www.fentiss.com",
+    "License": "Proprietary",
+    "Status": "Demonstrated",
+    "Description": "Support of XNG to the MATCH178 timming analysis by RSS in order to use their funcionality",
+    "WI": [
+      "ID 4.3.12"
+    ],
+    "Partners": "FENTISS",
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": [
+      "Software, Hypervisor, Software Library/Framework"
+    ],
+    "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_hypervisor_integration_of_validation_tools.json",
+    "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_hypervisor_integration_of_validation_tools.pdf"
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "XNG hypervisor runtime fault diagnosis tests integration",
+    "URL": "www.fentiss.com",
+    "License": "Proprietary",
+    "Status": "Demonstrated",
+    "Description": "Integration of the fault diagnosis tests by UPV in a Time and Space Partitioning software architecture based on XNG",
+    "WI": [
+      "ID 4.3.13"
+    ],
+    "Partners": "FENTISS",
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": [
+      "Software, Hypervisor, Application Software"
+    ],
+    "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_hypervisor_runtime_fault_diagnosis_tests_integration.json",
+    "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_XNG_hypervisor_runtime_fault_diagnosis_tests_integration.pdf"
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "L2C-Lite partitioning in XtratuM/NG",
+    "URL": "www.fentiss.com",
+    "License": "Proprietary",
+    "Status": "Demonstrated",
+    "Description": "Support of XNG to the L2 Cache partitioning by UPV for NOEL-V",
+    "WI": [
+      "ID 2.2.08"
+    ],
+    "Partners": "FENTISS",
+    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": [
+      "Software, Hypervisor"
+    ],
+    "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_L2C-Lite_partitioning_in_XNG.json",
+    "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_L2C-Lite_partitioning_in_XNG.pdf"
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "AHB Filter support in XtratuM/NG",
+    "URL": "www.fentiss.com",
+    "License": "Proprietary",
+    "Status": "Demonstrated",
+    "Description": "Integration of the AHB Filter by UPV in a Time and Space Partitioning software architecture based on XNG",
+    "WI": [
+      "ID 2.2.08"
+    ],
+    "Partners": "FENTISS",
+    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": [
+      "Software, Hypervisor"
+    ],
+    "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_AHB-Filter_support_in_XNG.json",
+    "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_AHB-Filter_support_in_XNG.pdf"
+  },  
+  {
+    "Project": "ISOLDE",
     "Name": "Tooling to ensure compliance with multicore timing certification objectives",
     "URL": "",
     "License": "Proprietary",
@@ -1919,25 +1971,6 @@
       "Software"
     ],
     "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
-    "Name": "XNG hypervisor integration of validation tools",
-    "URL": "",
-    "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 4.3.12"
-    ],
-    "Partners": "FENTISS",
-    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
-    "Category": [
-      "Operating System",
-      "Software"
-    ],
-    "IP_CARD_URL": "ip_cards/FENTISS_xng.json",
     "IP_CARD_PDF_URL": ""
   },
   {

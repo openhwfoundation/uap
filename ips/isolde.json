@@ -542,10 +542,10 @@
   {
     "Project": "ISOLDE",
     "Name": "Root-of-Trust Unit Design and Interface with RISC-V Host Processor (TitanCFI)",
-    "URL": "https://github.com/pulp-platform/opentitan",
-    "License": "SHL-2.1",
+    "URL": "https://github.com/pulp-platform/opentitan/tree/mc/astral",
+    "License": "SHL-0.51",
     "Status": "",
-    "Description": "TBD",
+    "Description": "Silicon Root-of-Trust / secure element derived from OpenTitan Earl Grey: RV32 (CV32E) core, crypto accelerators (AES, SHA-256, SHA-3, HMAC, KMAC, OTBN, TRNG), key management and OTP secure storage. Loosely coupled to the RISC-V host via an AXI4 initiator port and an SCMI mailbox for host control; supports secure boot. Implemented in GF12LP+ (0.63 mm2, 300 MHz) and on VCU118.",
     "WI": [
       "ID 3.1.10"
     ],
@@ -556,8 +556,8 @@
       "Extension",
       "Peripheral"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/json/UNIBO_rot.jsonc",
+    "IP_CARD_PDF_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/pdf/UNIBO_rot.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -736,10 +736,10 @@
   {
     "Project": "ISOLDE",
     "Name": "Tensor Processing Unit (TPU)",
-    "URL": "https://github.com/pulp-platform/redmule",
-    "License": "SHL-2.1",
+    "URL": "https://github.com/pulp-platform/pulp_cluster/tree/lg/isolde",
+    "License": "SHL-0.51",
     "Status": "",
-    "Description": "TBD",
+    "Description": "Loosely-coupled AI/ML accelerator cluster: 8x CV32E40P RISC-V cores (RV32IMCFXpulpV2) with 128 KiB L1 TCDM, a systolic-array Tensor Processing Engine (TPE, 12x4 default, FP16/BF16/FP8 GEMM and GEMM-Ops, up to 384 ops/cycle) and an Activation Engine (AE, Softmax/GELU), memory-mapped over AXI4. Supported by the PULP GCC toolchain, pulp-runtime SDK and the MATCH domain-specific compiler. Implemented in GF12LP+ (0.54 mm2, 500 MHz) and on VCU118.",
     "WI": [
       "ID 3.4.01"
     ],
@@ -749,8 +749,8 @@
       "Accelerator",
       "Extension"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/json/UNIBO_tpu.jsonc",
+    "IP_CARD_PDF_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/pdf/UNIBO_tpu.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -1366,30 +1366,11 @@
   },
   {
     "Project": "ISOLDE",
-    "Name": "TPU HAL",
-    "URL": "",
-    "License": "Apache-2.0",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 4.2.06"
-    ],
-    "Partners": "UNIBO",
-    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
-    "Category": [
-      "Operating System",
-      "Software"
-    ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
     "Name": "HAL for RoT unit as a secure-coprocessor",
-    "URL": "",
+    "URL": "https://github.com/pulp-platform/opentitan/tree/mc/astral",
     "License": "Apache-2.0",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Integrated and validated",
+    "Description": "TitanSSL: software infrastructure exploiting the OpenTitan-based Root-of-Trust as a secure co-processor to secure and accelerate network-stack crypto functions (SHA-256, HMAC, AES) from Linux: OpenSSL/LibSSL engine, Linux Kernel Module bridging to OpenTitan via SCMI mailbox, and OpenTitan firmware serving application requests (OTTEE-V scheme, GlobalPlatform TEE Client API). Uses OpenTitan secure storage for security-sensitive data. FPGA-implemented on VCU118.",
     "WI": [
       "ID 4.2.07"
     ],
@@ -1399,16 +1380,16 @@
       "Operating System",
       "Software"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/json/UNIBO_titanssl.jsonc",
+    "IP_CARD_PDF_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/pdf/UNIBO_titanssl.pdf"
   },
   {
     "Project": "ISOLDE",
     "Name": "CFI software algorithm in OT firmware",
-    "URL": "",
+    "URL": "https://github.com/pulp-platform/opentitan/tree/mc/astral",
     "License": "Apache-2.0",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Prototype implemented",
+    "Description": "TitanCFI: Control-Flow Integrity monitor built on the OpenTitan Root-of-Trust. CVA6 is extended with a software-configurable stage that filters CFI-relevant instructions and forwards them into a private mailbox (configurable queue depth); a computational element in OpenTitan reads the instruction stream and enforces the CFI policy, with OpenTitan crypto accelerators authenticating CFI data structures in main memory. FPGA-implemented on VCU118, overhead measured on a benchmark set.",
     "WI": [
       "ID 4.2.08"
     ],
@@ -1418,27 +1399,8 @@
       "Operating System",
       "Software"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
-    "Name": "OT-based secure boot support (TitanBoot)",
-    "URL": "",
-    "License": "Apache-2.0",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 4.2.09"
-    ],
-    "Partners": "UNIBO",
-    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
-    "Category": [
-      "Operating System",
-      "Software"
-    ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/json/UNIBO_titancfi.jsonc",
+    "IP_CARD_PDF_URL": "https://github.com/pulp-unibo/isolde_ip_cards/blob/main/pdf/UNIBO_titancfi.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -1915,7 +1877,7 @@
     ],
     "IP_CARD_URL": "ip_cards/FENTISS_ISOLDE_-_AHB-Filter_support_in_XNG.json",
     "IP_CARD_PDF_URL": "ip_cards/FENTISS_ISOLDE_-_AHB-Filter_support_in_XNG.pdf"
-  },  
+  },
   {
     "Project": "ISOLDE",
     "Name": "Tooling to ensure compliance with multicore timing certification objectives",

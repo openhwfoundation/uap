@@ -10,8 +10,7 @@
         "Comment": "21290200",
         "WI":["T2.1","T3.1"],
         "Project":"RIGOLETTO",
-        "License":"SHL-0.51",
-        "URL":"https://github.com/openhwgroup/cva6"
+        "License":"SHL-0.51"
     },
     {
         "Name":"CVA6-SplitLockStep-DV",
@@ -25,8 +24,7 @@
         "Comment": "31070800",
         "WI":"T3.1",
         "Project":"RIGOLETTO",
-        "License":"SHL-2.1",
-        "URL":"https://github.com/openhwgroup/cva6-dcls"
+        "License":"SHL-2.1"
     },
     {
         "Name":"IP-10M-MACsec",
@@ -39,8 +37,7 @@
         "Comment": "34460800",
         "WI":"T3.1",
         "Project":"RIGOLETTO",
-        "License":"Proprietary",
-        "URL":""
+        "License":"Proprietary"
     },
     {
         "Name":"IP-Accelerator-Islands",
@@ -50,8 +47,7 @@
         "Comment": "31400200",
         "WI":"T3.1",
         "Project":"RIGOLETTO",
-        "License":"SHL-2.1",
-        "URL":"https://github.com/des-cei/eros"
+        "License":"SHL-2.1"
     },
     {
         "Name":"IP-CVA6-SplitLockStep",
@@ -64,8 +60,7 @@
         "Comment": "31240200",
         "WI":"T3.1",
         "Project":"RIGOLETTO",
-        "License":"SHL-2.1",
-        "URL":"https://github.com/openhwgroup/cva6-dcls"
+        "License":"SHL-2.1"
     },
     {
         "Name":"IP-FastContextSwitchCVA6",
@@ -132,8 +127,7 @@
         "Comment":"23400300",
         "WI":["T2.3","T3.3"],
         "Project":"RIGOLETTO",
-        "License":"SHL-2.1",
-        "URL":"https://github.com/des-cei/strela"
+        "License":"SHL-2.1"
     },
     {
         "Name":"ML-AI-Acc-VPU#6_FZI",
@@ -150,8 +144,7 @@
         "Comment":"23120300",
         "WI":["T2.3","T3.3"],
         "Project":"RIGOLETTO",
-        "License":"SHL-2.1",
-        "URL":"https://github.com/vproc/vicuna2_core"
+        "License":"SHL-2.1"
     },
     {
         "Name":"IP-On-Chip-Communication",
@@ -164,8 +157,7 @@
         "Comment": "31450800",
         "WI":"T3.1",
         "Project":"RIGOLETTO",
-        "License":"BSD-2-Clause",
-        "URL":"https://github.com/t-crest/soc-comm"
+        "License":"BSD-2-Clause"
     },
     {
         "Name":"IP-RocketChip",
@@ -178,8 +170,7 @@
         "Comment":"34120200",
         "WI":"T3.4",
         "Project":"RIGOLETTO",
-        "License":"BSD-3-Clause",
-        "URL":"https://github.com/chipsalliance/rocket-chip"
+        "License":"BSD-3-Clause"
     },
     {
         "Name":"IP-Root-Of-Trust",
@@ -192,8 +183,7 @@
         "Comment": "34460801",
         "WI":"T3.1",
         "Project":"RIGOLETTO",
-        "License":"Proprietary",
-        "URL":""
+        "License":"Proprietary"
     },
     {
         "Name":"IP-RT-Monitor",
@@ -257,8 +247,7 @@
         "Comment": "31300200",
         "WI":"T3.1",
         "Project":"RIGOLETTO",
-        "License":"SHL-2.1",
-        "URL":"https://github.com/openhwgroup/cva6"
+        "License":"SHL-2.1"
     },
     {
         "Name":"Keccak-PQC",
@@ -286,8 +275,7 @@
         "Comment": "23090300",
         "WI":["T2.3","T3.3"],
         "Project":"RIGOLETTO",
-        "License":"MIT",
-        "URL":"https://github.com/itiv-kit/flexnngine"
+        "License":"MIT"
     },
     {
         "Name":"ML-AI-Acc-Cu#5.2",
@@ -385,8 +373,7 @@
         "Partners":"DTU",
         "WI":"T2.4",
         "Project":"RIGOLETTO",
-        "License":"BSD-3-Clause",
-        "URL":"https://github.com/t-crest/soc-comm"
+        "License":"BSD-3-Clause"
     },
     {
         "Name":"VMEU",
@@ -411,8 +398,7 @@
         "Partners":"DTU",
         "WI":"T2.4",
         "Project":"RIGOLETTO",
-        "License":"BSD-2-Clause",
-        "URL":"https://github.com/schoeberl/wildcat"
+        "License":"BSD-2-Clause"
     },
     {
         "Name":"EA Message Engine",
@@ -467,8 +453,7 @@
         "Partners":"CERN",
         "WI":"T2.5",
         "Project":"RIGOLETTO",
-        "License":"LGPL-3.0",
-        "URL":"https://github.com/HEP-SoC/SoCMake"
+        "License":"LGPL-3.0"
     },
     {
         "Name":"PixESL",
@@ -479,7 +464,6 @@
         "Partners":"CERN",
         "WI":"T3.3",
         "Project":"RIGOLETTO",
-        "License":"LGPL-3.0",
-        "URL":"https://gitlab.cern.ch/iod/pixesl-group"
+        "License":"LGPL-3.0"
     }
 ]

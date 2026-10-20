@@ -595,7 +595,7 @@
     "Name": "Scratchpad Memory",
     "URL": "https://gitlab.com/catalin.ciobanu/PolyMem_System_Verilog/-/tree/refactoring?ref_type=heads",
     "License": "GPL-3.0",
-    "Status": "Optimization",
+    "Status": "Released",
     "Description": "Polymorphic memory designed to store matrices.",
     "WI": [
       "ID 3.2.03"
@@ -603,12 +603,10 @@
     "Partners": "IMT",
     "Comment": "GPL v3.0. ISOLDE Category 'Accelerators and extensions'",
     "Category": [
-      "Accelerator",
-      "Extension",
-      "Peripheral"
+      "Memory"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://gitlab.com/catalin.ciobanu/PolyMem_System_Verilog/-/blob/refactoring/IMT_ISOLDE_-Scratchpad_memory.jsonc?ref_type=heads",
+    "IP_CARD_PDF_URL": "https://gitlab.com/catalin.ciobanu/PolyMem_System_Verilog/-/blob/refactoring/IMT_ISOLDE_-Scratchpad_memory.pdf?ref_type=heads"
   },
   {
     "Project": "ISOLDE",
@@ -789,7 +787,7 @@
     "Name": "SIMD/Vector Accelerator",
     "URL": "https://github.com/alex2kameboss/MatrixAccelerator",
     "License": "GPL-3.0",
-    "Status": "FPGA implementation",
+    "Status": "Released",
     "Description": "This accelerator extends the RISC-V ISA for matrix operations. This accelerator is tightly coupled with the RISC-V core via CV-X-IF.",
     "WI": [
       "ID 3.4.06"
@@ -1515,7 +1513,7 @@
       "GPL-2.0",
       "LGPL-2.1"
     ],
-    "Status": "Stable",
+    "Status": "Released",
     "Description": "GCC support for IMT SIMD/Vector accelerator. Custom instructions are available through inline assembly.",
     "WI": [
       "ID 4.2.17"
@@ -1526,8 +1524,8 @@
       "Operating System",
       "Software"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://github.com/alex2kameboss/MA-riscv-gnu-toolchain/blob/master/IMT_ISOLDE_-SIMD-Vector_Acclerator_Compiler.jsonc",
+    "IP_CARD_PDF_URL": "https://github.com/alex2kameboss/MA-riscv-gnu-toolchain/blob/master/IMT_ISOLDE_-SIMD-Vector_Acclerator_Compiler.pdf"
   },
   {
     "Project": "ISOLDE",

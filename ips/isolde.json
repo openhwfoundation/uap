@@ -633,7 +633,7 @@
     "Name": "Time Contract Monitoring Co-Processor (TCCP)",
     "URL": "https://github.com/offis/isolde-tccp",
     "License": "Apache-2.0",
-    "Status": "Prototype.",
+    "Status": "Released",
     "Description": "The Time Contract Co-Processor (TCCP), a reconfigurable open-source co-processor for RISC-V systems.",
     "WI": [
       "ID 3.3.02"
@@ -1586,7 +1586,7 @@
     "Name": "Time Contract Co-processor Compiler (TCCP-CO)",
     "URL": "https://github.com/offis/isolde-tccp",
     "License": "Apache-2.0",
-    "Status": "Prototype.",
+    "Status": "Released",
     "Description": "The Time Contract Co-Processor (TCCP) Compiler, a compiler providing the TCCP with a micro program for monitoring, based on contracts and software artifacts.",
     "WI": [
       "ID 4.3.02"

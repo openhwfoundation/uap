@@ -194,7 +194,33 @@
     "Description": "",
     "License": "Others",
     "Comment": "TBD",
-    "IP_CARD_URL": "https://github.com/pulp-unibo/ip-card/blob/main/examples/FENTISS_xng.json"
+    "IP_CARD_URL": "https://github.com/elopezFentiss/uap/blob/main/ip_cards/FENTISS_REBECCA_-_XNG_hypervisor_CVA6_board_support_package_No_H_extension.json"
+  },
+    {
+    "Name": "Linux BSP for XNG for CVA6 processor based on the RISC-V architecture",
+    "Category" : ["Software", "System Software"],
+    "URL": "",
+    "Project": "REBECCA",
+    "WI": [""],
+    "Partners": "FENTISS",
+    "Status": "",
+    "Description": "",
+    "License": "Others",
+    "Comment": "TBD",
+    "IP_CARD_URL": "https://github.com/elopezFentiss/uap/blob/main/ip_cards/FENTISS_REBECCA_-_XNG_hypervisor_CVA6_BSP_Linux_No_H_extension.json"
+  },
+    {
+    "Name": "XRE supporting partitions in C++ for XNG",
+    "Category" : ["Software", "System Software"],
+    "URL": "",
+    "Project": "REBECCA",
+    "WI": [""],
+    "Partners": "FENTISS",
+    "Status": "",
+    "Description": "",
+    "License": "Others",
+    "Comment": "TBD",
+    "IP_CARD_URL": "https://github.com/elopezFentiss/uap/blob/main/ip_cards/FENTISS_REBECCA_-_XNG_hypervisor_CVA6_BSP_C%2B%2B_Partition_No_H_extension.json"
   },
   {
     "Name": "Kubernetes",

@@ -1,0 +1,66 @@
+{
+    "schemaVersion": "0.9",
+    "basicInfo": {
+        "ipName": "Linux BSP for XNG for CVA6 processor based on the RISC-V architecture",
+        "version": "1.5",
+        "project": "REBECCA",
+        "workItem": "4.2",
+        "trl": "TRL-4",
+        "status": "Demonstrated",
+        "license": "Proprietary",
+        "ipType": {
+            "category": [
+                "Software",
+                "Hypervisor"
+            ],
+            "domain": [
+                "Safety",
+                "Security"
+            ],
+            "comment": "Linux Board Support Package (BSP) is aimed to be a general-purpose operating system to run in a partition over XNG."
+        },
+        "repositoryURL": "www.fentiss.com",
+        "provider": [
+            {
+                "organizationName": "Fent Innovative Software Solutions S.L.",
+                "organizationURL": "www.fentiss.com",
+                "organizationAlias": [
+                    "FENTISS"
+                ]
+            }
+        ]
+    },
+    "systemLevelInfo": {
+        "architecture": "RISC-V",
+        "processor": "CVA6",
+        "isaExtension": "rv64imafdc_zicsr_zifencei_sv39",
+        "board": "U55C Alveo FPGA",
+        "SOC": "NA",
+        "SWDependencies": "None",
+        "requiresSpecializedTool": "No"
+    },
+    "interfaces": {
+        "API": [
+            "Standard XNG hypercalls"
+        ],
+        "inputArtifacts": [
+            {
+                "artifact": "Hypervisor configuration",
+                "format": "XML"
+            },
+            {
+                "artifact": "Partition(s) source code",
+                "format": "C"
+            }
+        ],
+        "outputArtifacts": [
+            {
+                "artifact": "System image", 
+                "format": "ELF"
+            }
+        ]
+    },
+    "deployment": {
+        "bundle": "Operational software package"
+    }
+}

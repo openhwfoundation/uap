@@ -1,0 +1,66 @@
+{
+    "schemaVersion": "0.9",
+    "basicInfo": {
+        "ipName": "XRE supporting partitions in C++ for XNG",
+        "version": "1.5",
+        "project": "REBECCA",
+        "workItem": "4.3",
+        "trl": "TRL-4",
+        "status": "Demonstrated",
+        "license": "Proprietary",
+        "ipType": {
+            "category": [
+                "Software",
+                "Hypervisor"
+            ],
+            "domain": [
+                "Safety",
+                "Security"
+            ],
+            "comment": "XRE has been evolved to support C++-based applications in a partition over XNG. This will allow C++-based applications to be executed as a bare metal application over the XNG software stack, leveraging the safety features that the hypervisor provides to the system"
+        },
+        "repositoryURL": "www.fentiss.com",
+        "provider": [
+            {
+                "organizationName": "Fent Innovative Software Solutions S.L.",
+                "organizationURL": "www.fentiss.com",
+                "organizationAlias": [
+                    "FENTISS"
+                ]
+            }
+        ]
+    },
+    "systemLevelInfo": {
+        "architecture": "RISC-V",
+        "processor": "CVA6",
+        "isaExtension": "rv64imafdc_zicsr_zifencei_sv39",
+        "board": "U55C Alveo FPGA",
+        "SOC": "NA",
+        "SWDependencies": "None",
+        "requiresSpecializedTool": "No"
+    },
+    "interfaces": {
+        "API": [
+            "Standard XNG hypercalls"
+        ],
+        "inputArtifacts": [
+            {
+                "artifact": "Hypervisor configuration",
+                "format": "XML"
+            },
+            {
+                "artifact": "Partition(s) source code",
+                "format": "C++"
+            }
+        ],
+        "outputArtifacts": [
+            {
+                "artifact": "System image", 
+                "format": "ELF"
+            }
+        ]
+    },
+    "deployment": {
+        "bundle": "Operational software package"
+    }
+}
